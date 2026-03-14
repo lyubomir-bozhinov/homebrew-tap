@@ -1,25 +1,25 @@
 class Cxpak < Formula
   desc "Token-budgeted codebase context for LLMs"
   homepage "https://github.com/lyubomir-bozhinov/cxpak"
-  version "0.7.0"
+  version "0.8.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lyubomir-bozhinov/cxpak/releases/download/v0.7.0/cxpak-aarch64-apple-darwin.tar.gz"
-      sha256 "a2fdbada97f47ecd63b06d021abe13021994e830f65cdb79f3055f0012d685fd"
+      url "https://github.com/lyubomir-bozhinov/cxpak/releases/download/v0.8.0/cxpak-aarch64-apple-darwin.tar.gz"
+      sha256 "b0342ba5342b71a2bb7e87c37a0f02e4a36b2adc5c9ff4c1e0a56ee81b883462"
     else
-      url "https://github.com/lyubomir-bozhinov/cxpak/releases/download/v0.7.0/cxpak-x86_64-apple-darwin.tar.gz"
-      sha256 "37f335c09e6c0f3736cf65101de7f833fece746825176273c51f67593be13ea8"
+      url "https://github.com/lyubomir-bozhinov/cxpak/releases/download/v0.8.0/cxpak-x86_64-apple-darwin.tar.gz"
+      sha256 "9e89650d83aeee81e9183917dd3dd6e4375633fcb40336be6e7e34604d327fc9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lyubomir-bozhinov/cxpak/releases/download/v0.7.0/cxpak-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "901415080a90c00336c66c7bb90f136b60623ffc220b309fe4a43e9684bd5a9c"
+      url "https://github.com/lyubomir-bozhinov/cxpak/releases/download/v0.8.0/cxpak-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f096d82e4aaa46bd65691e87efa43d486204049e03e6d6411abf4e85010a84e9"
     else
-      url "https://github.com/lyubomir-bozhinov/cxpak/releases/download/v0.7.0/cxpak-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6f14f071ddfb9d7d2e8bd2b78ed0d56719c938bdbdbf5f932a1aabe35166bcc6"
+      url "https://github.com/lyubomir-bozhinov/cxpak/releases/download/v0.8.0/cxpak-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "618dd63f8ce356e2b4e74642013c9f02e3f92544fa0c5461dc0088571ad24a4f"
     end
   end
 
